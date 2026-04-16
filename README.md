@@ -4,6 +4,8 @@ Package name: `mini-request-system`
 
 A mini request management app with role-based access (user / manager): create requests, filter them, and update statuses.
 
+https://mini-request-system.vercel.app/
+
 ## Tech stack
 
 - **React 19** + **TypeScript** — UI and type safety
