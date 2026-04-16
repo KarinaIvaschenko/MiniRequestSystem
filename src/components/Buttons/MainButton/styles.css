@@ -8,18 +8,17 @@
   cursor: pointer;
   transition: background 0.3s ease;
   max-width: max-content;
+}
 
-  &.disabled {
-    cursor: not-allowed;
-    opacity: 0.4;
-  }
+.main-button.disabled {
+  cursor: not-allowed;
+  opacity: 0.4;
+}
 
-  &:not(.disabled):hover {
-    background: linear-gradient(135deg, #973bd9, #31c2a8);
-  }
+.main-button:not(.disabled):hover {
+  background: linear-gradient(135deg, #973bd9, #31c2a8);
 }
 
 .main-button__text {
   font-weight: bold;
 }
-

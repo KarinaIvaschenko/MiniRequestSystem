@@ -1,6 +1,6 @@
 import {useAppSelector} from "../../../../store/hooks.ts";
 import ToggleSwitch from "../../../../components/ToggleSwitch/ToggleSwitch.tsx";
-import './styles.scss';
+import './styles.css';
 import type {FC} from "react";
 
 interface IRoleSwitcher {

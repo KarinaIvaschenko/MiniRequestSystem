@@ -1,5 +1,5 @@
 import type {ChangeEvent, FC} from "react";
-import './styles.scss';
+import './styles.css';
 import type {OptionSelectType} from "../../helpers/types.ts";
 
 export interface IInput {

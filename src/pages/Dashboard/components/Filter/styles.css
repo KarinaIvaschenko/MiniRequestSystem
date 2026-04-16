@@ -2,9 +2,9 @@
   display: flex;
   gap: 12px;
   align-items: center;
+}
 
-  &__statuses {
-    display: flex;
-    gap: 8px;
-  }
+.filter__statuses {
+  display: flex;
+  gap: 8px;
 }

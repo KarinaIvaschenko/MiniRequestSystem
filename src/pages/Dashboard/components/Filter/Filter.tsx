@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { resetFilteredRequestsList, setFilteredRequestsList } from "../../../../store/requestsSlice.ts";
 import MainButton from "../../../../components/Buttons/MainButton/MainButton.tsx";
 import { statusList } from "../../../../helpers/statusList.ts";
-import './styles.scss';
+import './styles.css';
 
 const Filter = () => {
     const { requestsList } = useAppSelector(store => store.requestsSlice);

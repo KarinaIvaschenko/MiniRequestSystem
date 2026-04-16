@@ -6,9 +6,11 @@
   padding: 0;
 }
 
-html, body {
+html,
+body {
   height: 100%;
   width: 100%;
+  background: linear-gradient(135deg, #1e1b4b, #3b82f6, #8b5cf6);
 }
 
 .container {
@@ -16,12 +18,13 @@ html, body {
   max-width: 1440px;
   margin: 0 auto;
   padding: 20px;
+}
 
-  @media (max-width: 768px) {
+@media (max-width: 768px) {
+  .container {
     padding: 15px;
   }
 }
-
 
 input,
 button,
@@ -41,7 +44,13 @@ button {
   cursor: pointer;
 }
 
-p, h1, h2, h3, h4, h5, h6 {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
   color: #fff;
 }

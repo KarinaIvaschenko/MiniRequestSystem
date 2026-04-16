@@ -1,5 +1,5 @@
 import type {CSSProperties, FC} from "react";
-import './styles.scss';
+import './styles.css';
 
 interface IMainButton {
     text?: string;

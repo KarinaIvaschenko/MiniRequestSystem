@@ -1,6 +1,6 @@
 import {useAppSelector} from "../../../../store/hooks.ts";
 import RequestsList from "./RequestsList/RequestsList.tsx";
-import './styles.scss';
+import './styles.css';
 
 const Requests = () => {
     const {filteredRequestsList} = useAppSelector(store => store.requestsSlice);

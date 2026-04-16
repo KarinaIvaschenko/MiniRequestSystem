@@ -1,4 +1,4 @@
-import './styles.scss';
+import './styles.css';
 import RoleSwitcher from "./components/RoleSwitcher/RoleSwitcher.tsx";
 import MainButton from "../../components/Buttons/MainButton/MainButton.tsx";
 import Requests from "./components/Requests/Requests.tsx";

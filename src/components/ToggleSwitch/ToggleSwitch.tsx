@@ -1,5 +1,5 @@
 import type {FC} from "react";
-import './styles.scss';
+import './styles.css';
 
 interface IToggleSwitch {
     checked: boolean;
