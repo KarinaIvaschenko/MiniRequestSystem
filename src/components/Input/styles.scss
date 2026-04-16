@@ -1,0 +1,87 @@
+.input-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.input-label {
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+}
+
+.input-field {
+  position: relative;
+}
+
+.input {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+
+  &:focus {
+    border-color: #fff;
+    box-shadow: 0 0 5px #fff;
+  }
+}
+
+.input-arrow {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  pointer-events: none;
+  color: #fff;
+
+  &--open {
+    transform: translateY(-50%) rotate(180deg);
+  }
+}
+
+.input-error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.input[readonly] {
+  cursor: pointer;
+}
+
+.input-select {
+  background-color: #fff;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.input-select__option {
+  padding: 10px;
+  &:not(:last-child) {
+    border-bottom: 1px solid #ddd;
+  }
+
+  &:hover {
+    cursor: pointer;
+    background-color: #ddd;
+  }
+
+  &:last-child:hover {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+}
+
+.input-select__option-text {
+  color: #000;
+}
+
