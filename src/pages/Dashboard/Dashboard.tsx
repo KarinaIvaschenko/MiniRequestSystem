@@ -47,7 +47,8 @@ const Dashboard = () => {
                         altIcon={"Plus"}
                         stylesIcon={{filter: "brightness(0) invert(1)"}}
                         stylesText={{textTransform: "uppercase"}}/>
-                    {isManager && requestsList.length > 0 &&  (
+                    {openAddRequestForm && <AddRequestForm onClose={handleAddRequest}/>}
+                    {isManager && requestsList.length > 0 && (
                         <div className="add-request__filter">
                             <MainButton onClick={handleOpenFilter} icon={'/images/filter.png'} altIcon={"Filter"}
                                         stylesIcon={{filter: "brightness(0) invert(1)"}}/>
@@ -56,7 +57,6 @@ const Dashboard = () => {
                             )}
                         </div>
                     )}
-                    {openAddRequestForm && <AddRequestForm onClose={handleAddRequest}/>}
                 </div>
                 <Requests/>
             </div>
